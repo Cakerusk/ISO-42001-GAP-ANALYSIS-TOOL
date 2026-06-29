@@ -1,0 +1,6 @@
+{
+  "name": "ISO 42001 Gap Analysis Tool",
+  "description": "A fully comprehensive end-to-end ISO/IEC 42001 (AIMS) gap analysis and governance tool with interactive dashboards, Annex A AI controls assessment, multi-organization management, customizable reports, and AI-powered executive analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
