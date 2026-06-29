@@ -178,9 +178,10 @@ export default function AIAnalysisView({
               <FileText className="w-5 h-5 text-orange-400" />
               <h2 className="text-sm uppercase tracking-wider text-slate-200">AIMS Executive Summary</h2>
             </div>
-            <p className="text-sm text-slate-300 font-sans leading-relaxed whitespace-pre-line p-4 bg-[#111827]/40 rounded border border-white/5">
-              {analysisResult.executiveSummary}
-            </p>
+            <div 
+              className="text-sm text-slate-300 font-sans leading-relaxed whitespace-pre-line p-4 bg-[#111827]/40 rounded border border-white/5"
+              dangerouslySetInnerHTML={{ __html: analysisResult.executiveSummary }}
+            />
           </div>
 
           {/* Strategic Roadmap Stages */}

@@ -384,9 +384,10 @@ export default function ExecutiveReportView({
               <h2 className="text-sm font-mono tracking-widest text-[#0f172a] font-black uppercase mb-3 flex items-center gap-1.5 border-b pb-2">
                 <FileText className="w-4 h-4 text-[#8b5cf6]" /> Executive Summary
               </h2>
-              <p className="text-sm text-gray-600 leading-relaxed whitespace-pre-line bg-gray-50 p-5 rounded border">
-                {analysisResult.executiveSummary}
-              </p>
+              <div 
+                className="text-sm text-gray-600 leading-relaxed whitespace-pre-line bg-gray-50 p-5 rounded border"
+                dangerouslySetInnerHTML={{ __html: analysisResult.executiveSummary }}
+              />
             </div>
 
             <div className="pb-6 border-b border-gray-100">

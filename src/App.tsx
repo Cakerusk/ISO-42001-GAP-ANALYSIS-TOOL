@@ -261,21 +261,14 @@ export default function App() {
           <button
             onClick={() => setShowLanding(true)}
             title="Return to Landing Page"
-            className="flex items-center gap-3.5 cursor-pointer hover:opacity-85 active:scale-[0.98] transition-all focus:outline-none bg-transparent border-none p-0 group"
+            className="flex items-center gap-3 cursor-pointer hover:opacity-85 active:scale-[0.98] transition-all focus:outline-none bg-transparent border-none p-0 group animate-fade-in"
           >
-            <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 rounded bg-gradient-to-br from-orange-500 to-amber-600 shadow-[0_0_15px_rgba(249,115,22,0.35)] flex items-center justify-center transition-transform group-hover:scale-105">
-                <ShieldCheck className="w-5 h-5 text-black stroke-[2.5]" />
-              </div>
-              <span className="text-white font-extrabold tracking-tight text-xl font-sans">
-                AIMS<span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-500">42001</span>
-              </span>
+            <div className="w-8 h-8 rounded bg-gradient-to-br from-orange-500 to-amber-600 shadow-[0_0_15px_rgba(249,115,22,0.35)] flex items-center justify-center transition-transform group-hover:scale-105">
+              <ShieldCheck className="w-5 h-5 text-black stroke-[2.5]" />
             </div>
-            <div className="h-6 w-[1px] bg-white/10" />
-            <div className="text-left font-mono">
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block leading-none">AIMS 42001 GAP ANALYZER</span>
-              <span className="text-[10px] text-slate-500 block mt-1">ISO/IEC 42001:2023 Standard</span>
-            </div>
+            <span className="text-white font-extrabold tracking-tight text-xl font-sans uppercase">
+              GAP<span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-500">TIFY</span>
+            </span>
           </button>
         </div>
 
